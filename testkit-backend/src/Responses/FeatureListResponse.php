@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Indicates the features the driver supports.
  */
-final class FeatureListResponse implements TestkitResponseInterface
+calss FeatureListResponse implements TestkitResponseInterface
 {
     private array $features;
 

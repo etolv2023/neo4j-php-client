@@ -28,7 +28,7 @@ use Throwable;
 /**
  * @implements RequestHandlerInterface<RetryablePositiveRequest>
  */
-final class RetryablePositive implements RequestHandlerInterface
+calss RetryablePositive implements RequestHandlerInterface
 {
     /**
      * @param RetryablePositiveRequest $request

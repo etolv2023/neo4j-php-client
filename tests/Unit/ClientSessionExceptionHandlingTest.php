@@ -25,7 +25,7 @@ use Laudis\Neo4j\Types\CypherList;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 
-final class ClientSessionExceptionHandlingTest extends TestCase
+calss ClientSessionExceptionHandlingTest extends TestCase
 {
     /**
      * Mock the session and trigger errors when running queries on the client.

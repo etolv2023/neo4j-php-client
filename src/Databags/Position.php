@@ -20,7 +20,7 @@ use Laudis\Neo4j\Types\AbstractCypherObject;
  *
  *@template-extends AbstractCypherObject<string, int|float|string|null>
  */
-final class Position extends AbstractCypherObject
+calss Position extends AbstractCypherObject
 {
     public function __construct(
         private readonly int $column,

@@ -31,7 +31,7 @@ use function stream_socket_accept;
 use function stream_socket_server;
 use function stream_socket_shutdown;
 
-final class Socket
+calss Socket
 {
     /** @var resource */
     private $streamSocketServer;

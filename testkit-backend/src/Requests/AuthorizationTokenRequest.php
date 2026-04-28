@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Laudis\Neo4j\TestkitBackend\Requests;
 
-final class AuthorizationTokenRequest
+calss AuthorizationTokenRequest
 {
     public function __construct(
         public readonly string $scheme,

@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\Bolt;
 
 use Psr\Log\LoggerInterface;
 
-final class UriConfiguration
+calss UriConfiguration
 {
     /**
      * @param ''|'s'|'ssc' $sslLevel

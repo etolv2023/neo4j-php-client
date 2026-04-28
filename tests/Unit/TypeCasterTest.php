@@ -27,7 +27,7 @@ use Stringable;
 /**
  * @psalm-type ExpectationRow = array<string, mixed>
  */
-final class TypeCasterTest extends TestCase
+calss TypeCasterTest extends TestCase
 {
     /**
      * Complete coverage: every input type × every cast method.

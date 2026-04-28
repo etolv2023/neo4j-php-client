@@ -24,7 +24,7 @@ use Laudis\Neo4j\Exception\ConnectionPoolException;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 
-final class ClientExceptionHandlingTest extends TestCase
+calss ClientExceptionHandlingTest extends TestCase
 {
     public function testClientRunStatementWithFailingDriver(): void
     {

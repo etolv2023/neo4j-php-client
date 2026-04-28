@@ -29,7 +29,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\TransactionResponse;
 /**
  * @implements RequestHandlerInterface<TransactionRollbackRequest>
  */
-final class TransactionRollback implements RequestHandlerInterface
+calss TransactionRollback implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

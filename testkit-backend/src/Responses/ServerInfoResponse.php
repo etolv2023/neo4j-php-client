@@ -19,7 +19,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Response containing server information.
  */
-final class ServerInfoResponse implements TestkitResponseInterface
+calss ServerInfoResponse implements TestkitResponseInterface
 {
     private string $address;
     private string $agent;

@@ -19,7 +19,7 @@ use Laudis\Neo4j\Common\Neo4jLogger;
 use Laudis\Neo4j\Contracts\BoltMessage;
 use Psr\Log\LogLevel;
 
-final class BoltHelloMessage extends BoltMessage
+calss BoltHelloMessage extends BoltMessage
 {
     /**
      * Constructor for the BoltHelloMessage.

@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Represents a record from a result.
  */
-final class RecordResponse implements TestkitResponseInterface
+calss RecordResponse implements TestkitResponseInterface
 {
     /**
      * @var iterable<TestkitResponseInterface>

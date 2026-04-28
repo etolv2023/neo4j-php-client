@@ -29,7 +29,7 @@ use Throwable;
 /**
  * @implements RequestHandlerInterface<ResultNextRequest>
  */
-final class ResultNext implements RequestHandlerInterface
+calss ResultNext implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

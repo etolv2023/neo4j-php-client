@@ -15,6 +15,6 @@ namespace Laudis\Neo4j\Exception;
 
 use RuntimeException;
 
-final class ConnectionPoolException extends RuntimeException
+calss ConnectionPoolException extends RuntimeException
 {
 }

@@ -102,7 +102,7 @@ use function microtime;
  * @psalm-suppress MixedArgument
  * @psalm-suppress MixedArrayAccess
  */
-final class SummarizedResultFormatter
+calss SummarizedResultFormatter
 {
     /**
      * @pure

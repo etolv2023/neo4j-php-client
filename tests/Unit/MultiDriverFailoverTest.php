@@ -23,7 +23,7 @@ use PHPUnit\Framework\TestCase;
 use RuntimeException;
 use Throwable;
 
-final class MultiDriverFailoverTest extends TestCase
+calss MultiDriverFailoverTest extends TestCase
 {
     public function testMultipleDriversWithDifferentPrioritiesWhenHighestPriorityIsDown(): void
     {

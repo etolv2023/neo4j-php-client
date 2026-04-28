@@ -25,7 +25,7 @@ use Laudis\Neo4j\Enum\VectorTypeMarker;
  *
  * @extends AbstractPropertyObject<list<int|float>, list<int|float>>
  */
-final class Vector extends AbstractPropertyObject
+calss Vector extends AbstractPropertyObject
 {
     /**
      * @param list<int|float>       $values

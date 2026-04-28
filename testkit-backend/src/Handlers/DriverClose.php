@@ -21,7 +21,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\DriverResponse;
 /**
  * @implements RequestHandlerInterface<DriverCloseRequest>
  */
-final class DriverClose implements RequestHandlerInterface
+calss DriverClose implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

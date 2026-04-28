@@ -18,7 +18,7 @@ use Laudis\Neo4j\Enum\AccessMode;
 use Laudis\Neo4j\Enum\ConnectionProtocol;
 use Psr\Http\Message\UriInterface;
 
-final class ConnectionConfiguration
+calss ConnectionConfiguration
 {
     /**
      * @param ''|'s'|'ssc' $encryptionLevel

@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Laudis\Neo4j\Databags;
 
-final class ProfiledQueryPlan
+calss ProfiledQueryPlan
 {
     /**
      * @param list<ProfiledQueryPlan> $children

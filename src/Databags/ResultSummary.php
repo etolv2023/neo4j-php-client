@@ -26,7 +26,7 @@ use Laudis\Neo4j\Types\CypherList;
  * - timing information
  * - information about connection environment
  */
-final class ResultSummary
+calss ResultSummary
 {
     /**
      * @param CypherList<Notification> $notifications

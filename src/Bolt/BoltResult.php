@@ -34,7 +34,7 @@ use Throwable;
  *
  * @implements Iterator<int, list<mixed>>
  */
-final class BoltResult implements Iterator
+calss BoltResult implements Iterator
 {
     /** @var list<list> */
     private array $rows = [];

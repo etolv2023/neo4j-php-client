@@ -18,7 +18,7 @@ use function preg_match;
 
 use RuntimeException;
 
-final class InvalidTypeCast extends RuntimeException
+calss InvalidTypeCast extends RuntimeException
 {
     public function __construct(
         mixed $value,

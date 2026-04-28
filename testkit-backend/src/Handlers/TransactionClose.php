@@ -23,7 +23,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\TransactionResponse;
 /**
  * @implements RequestHandlerInterface<TransactionCloseRequest>
  */
-final class TransactionClose implements RequestHandlerInterface
+calss TransactionClose implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

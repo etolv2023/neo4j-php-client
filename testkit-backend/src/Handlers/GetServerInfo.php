@@ -28,7 +28,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @implements RequestHandlerInterface<GetServerInfoRequest>
  */
-final class GetServerInfo implements RequestHandlerInterface
+calss GetServerInfo implements RequestHandlerInterface
 {
     public function __construct(
         private MainRepository $repository,

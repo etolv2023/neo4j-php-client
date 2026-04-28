@@ -30,7 +30,7 @@ use Laudis\Neo4j\Types\CypherList;
 /**
  * A collection of drivers with methods to run queries though them.
  */
-final class Client implements ClientInterface
+calss Client implements ClientInterface
 {
     /**
      * @var array<string, list<UnmanagedTransactionInterface>>

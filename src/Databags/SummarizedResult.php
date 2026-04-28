@@ -25,7 +25,7 @@ use Laudis\Neo4j\Types\CypherMap;
  *
  * @extends CypherList<CypherMap<OGMTypes>>
  */
-final class SummarizedResult extends CypherList
+calss SummarizedResult extends CypherList
 {
     private ?ResultSummary $summary = null;
     /**

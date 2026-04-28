@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 use Symfony\Component\Uid\Uuid;
 
-final class GetRoutingTableRequest
+calss GetRoutingTableRequest
 {
     private Uuid $driverId;
     private ?string $database;

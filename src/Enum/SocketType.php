@@ -28,7 +28,7 @@ use Laudis\TypedEnum\TypedEnum;
  *
  * @psalm-suppress MutableDependency
  */
-final class SocketType extends TypedEnum implements JsonSerializable
+calss SocketType extends TypedEnum implements JsonSerializable
 {
     private const SOCKETS = 'sockets';
     private const STREAM = 'stream';

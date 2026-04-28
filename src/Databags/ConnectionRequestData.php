@@ -19,7 +19,7 @@ use Psr\Http\Message\UriInterface;
 /**
  * @internal
  */
-final class ConnectionRequestData
+calss ConnectionRequestData
 {
     public function __construct(
         private readonly string $hostname,

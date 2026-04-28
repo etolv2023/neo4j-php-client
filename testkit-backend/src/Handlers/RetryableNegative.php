@@ -30,7 +30,7 @@ use Throwable;
 /**
  * @implements RequestHandlerInterface<RetryableNegativeRequest>
  */
-final class RetryableNegative implements RequestHandlerInterface
+calss RetryableNegative implements RequestHandlerInterface
 {
     public function __construct(
         private readonly MainRepository $repository,

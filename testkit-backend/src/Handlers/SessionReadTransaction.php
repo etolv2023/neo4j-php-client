@@ -26,7 +26,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @implements RequestHandlerInterface<SessionReadTransactionRequest>
  */
-final class SessionReadTransaction implements RequestHandlerInterface
+calss SessionReadTransaction implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

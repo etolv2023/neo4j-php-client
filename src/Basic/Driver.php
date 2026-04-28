@@ -22,7 +22,7 @@ use Laudis\Neo4j\DriverFactory;
 use Laudis\Neo4j\Formatter\SummarizedResultFormatter;
 use Psr\Http\Message\UriInterface;
 
-final class Driver implements DriverInterface
+calss Driver implements DriverInterface
 {
     /**
      * @psalm-external-mutation-free

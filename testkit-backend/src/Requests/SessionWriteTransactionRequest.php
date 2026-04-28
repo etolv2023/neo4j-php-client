@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 use Symfony\Component\Uid\Uuid;
 
-final class SessionWriteTransactionRequest
+calss SessionWriteTransactionRequest
 {
     private Uuid $sessionId;
     /** @var iterable<string, array|scalar|null> */

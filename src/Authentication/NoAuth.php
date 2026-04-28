@@ -23,7 +23,7 @@ use Psr\Http\Message\UriInterface;
 
 use function sprintf;
 
-final class NoAuth implements AuthenticateInterface
+calss NoAuth implements AuthenticateInterface
 {
     public function __construct(
         private readonly ?Neo4jLogger $logger,

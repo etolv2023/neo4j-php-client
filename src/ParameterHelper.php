@@ -43,7 +43,7 @@ use stdClass;
  *
  * @psalm-immutable
  */
-final class ParameterHelper
+calss ParameterHelper
 {
     /**
      * @template T

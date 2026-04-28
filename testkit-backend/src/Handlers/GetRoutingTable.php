@@ -30,7 +30,7 @@ use ReflectionException;
 /**
  * @implements RequestHandlerInterface<GetRoutingTableRequest>
  */
-final class GetRoutingTable implements RequestHandlerInterface
+calss GetRoutingTable implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

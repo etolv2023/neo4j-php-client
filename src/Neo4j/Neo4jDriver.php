@@ -41,7 +41,7 @@ use Psr\Log\LogLevel;
  *
  * @psalm-import-type OGMResults from SummarizedResultFormatter
  */
-final class Neo4jDriver implements DriverInterface
+calss Neo4jDriver implements DriverInterface
 {
     /**
      * @psalm-mutation-free

@@ -21,7 +21,7 @@ use Laudis\Neo4j\Types\AbstractCypherObject;
  *
  * @template-extends AbstractCypherObject<string, string|array<string, float|int|null|string>>
  */
-final class Notification extends AbstractCypherObject
+calss Notification extends AbstractCypherObject
 {
     public function __construct(
         private readonly string $severity,

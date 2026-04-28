@@ -59,7 +59,7 @@ use function time;
  *
  * @implements ConnectionPoolInterface<BoltConnection>
  */
-final class Neo4jConnectionPool implements ConnectionPoolInterface
+calss Neo4jConnectionPool implements ConnectionPoolInterface
 {
     /** @var array<string, ConnectionPool> */
     private static array $pools = [];

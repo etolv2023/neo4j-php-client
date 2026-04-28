@@ -29,7 +29,7 @@ use function strtolower;
 /**
  * @psalm-immutable
  */
-final class Uri implements UriInterface, Stringable
+calss Uri implements UriInterface, Stringable
 {
     public function __construct(
         private readonly string $scheme,

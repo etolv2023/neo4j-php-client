@@ -40,7 +40,7 @@ use Throwable;
 /**
  * A session using bolt connections.
  */
-final class Session implements SessionInterface
+calss Session implements SessionInterface
 {
     private const ROLLBACK_CLASSIFICATIONS = ['ClientError', 'TransientError', 'DatabaseError'];
 

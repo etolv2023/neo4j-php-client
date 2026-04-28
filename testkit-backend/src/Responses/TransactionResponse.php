@@ -19,7 +19,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * Represents a transaction instance on the backend.
  */
-final class TransactionResponse implements TestkitResponseInterface
+calss TransactionResponse implements TestkitResponseInterface
 {
     private Uuid $id;
 

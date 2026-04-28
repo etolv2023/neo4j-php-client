@@ -36,7 +36,7 @@ use Psr\Log\LogLevel;
  *
  * @psalm-import-type OGMResults from SummarizedResultFormatter
  */
-final class BoltDriver implements DriverInterface
+calss BoltDriver implements DriverInterface
 {
     /**
      * @psalm-mutation-free

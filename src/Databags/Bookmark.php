@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\Databags;
 
 use function array_unique;
 
-final class Bookmark
+calss Bookmark
 {
     /** @var list<string> */
     private readonly array $values;

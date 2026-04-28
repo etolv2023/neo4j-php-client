@@ -29,7 +29,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\TransactionResponse;
 /**
  * @implements RequestHandlerInterface<TransactionCommitRequest>
  */
-final class TransactionCommit implements RequestHandlerInterface
+calss TransactionCommit implements RequestHandlerInterface
 {
     private MainRepository $repository;
 
