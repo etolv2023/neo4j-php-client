@@ -19,7 +19,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * Specifies whether the server or cluster the driver connects to supports multi-databases.
  */
-calss MultiDBSupportResponse implements TestkitResponseInterface
+class MultiDBSupportResponse implements TestkitResponseInterface
 {
     private Uuid $id;
     private bool $available;

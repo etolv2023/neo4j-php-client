@@ -21,7 +21,7 @@ use Psr\Log\LogLevel;
 /**
  * A message that issues a LOGON request to the server for authentication.
  */
-calss BoltLogonMessage extends BoltMessage
+class BoltLogonMessage extends BoltMessage
 {
     /**
      * @param array<string,mixed> $credentials The credentials for the LOGON request (e.g., username and password)

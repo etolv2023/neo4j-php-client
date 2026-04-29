@@ -15,6 +15,6 @@ namespace Laudis\Neo4j\Exception;
 
 use RuntimeException;
 
-calss SSLConnectionException extends RuntimeException
+class SSLConnectionException extends RuntimeException
 {
 }

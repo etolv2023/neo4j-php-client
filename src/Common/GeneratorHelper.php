@@ -21,7 +21,7 @@ use RuntimeException;
 
 use function sprintf;
 
-calss GeneratorHelper
+class GeneratorHelper
 {
     /**
      * @template T

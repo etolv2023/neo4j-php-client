@@ -18,7 +18,7 @@ use Laudis\Neo4j\Common\Neo4jLogger;
 use Laudis\Neo4j\Contracts\BoltMessage;
 use Psr\Log\LogLevel;
 
-calss BoltRunMessage extends BoltMessage
+class BoltRunMessage extends BoltMessage
 {
     public function __construct(
         BoltConnection $connection,

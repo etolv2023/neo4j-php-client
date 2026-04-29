@@ -34,7 +34,7 @@ use function sprintf;
 /**
  * Configuration object for the driver.
  */
-calss DriverConfiguration
+class DriverConfiguration
 {
     public const DEFAULT_USER_AGENT = 'neo4j-php-client/%s';
     public const DEFAULT_POOL_SIZE = 0x2F;

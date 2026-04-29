@@ -23,7 +23,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @implements AbstractRunner<SessionLastBookmarksRequest>
  */
-calss SessionLastBookmarks implements RequestHandlerInterface
+class SessionLastBookmarks implements RequestHandlerInterface
 {
     public function __construct(
         private readonly MainRepository $repository,

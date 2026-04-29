@@ -22,7 +22,7 @@ use Laudis\Neo4j\Types\AbstractCypherObject;
  *
  * @extends AbstractCypherObject<string, mixed>
  */
-calss DatabaseInfo extends AbstractCypherObject
+class DatabaseInfo extends AbstractCypherObject
 {
     public function __construct(
         private readonly string $name,

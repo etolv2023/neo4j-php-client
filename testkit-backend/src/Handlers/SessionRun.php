@@ -20,7 +20,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @extends AbstractRunner<SessionRunRequest>
  */
-calss SessionRun extends AbstractRunner
+class SessionRun extends AbstractRunner
 {
     protected function getRunner($request): SessionInterface
     {

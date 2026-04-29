@@ -22,7 +22,7 @@ use Laudis\Neo4j\Databags\Bookmark;
 use Laudis\Neo4j\Databags\BookmarkHolder;
 use Psr\Log\LogLevel;
 
-calss BoltCommitMessage extends BoltMessage
+class BoltCommitMessage extends BoltMessage
 {
     public function __construct(
         BoltConnection $connection,

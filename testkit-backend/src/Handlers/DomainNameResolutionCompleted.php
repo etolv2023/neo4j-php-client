@@ -21,7 +21,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\BackendErrorResponse;
 /**
  * @implements RequestHandlerInterface<DomainNameResolutionCompletedRequest>
  */
-calss DomainNameResolutionCompleted implements RequestHandlerInterface
+class DomainNameResolutionCompleted implements RequestHandlerInterface
 {
     /**
      * @param DomainNameResolutionCompletedRequest $request

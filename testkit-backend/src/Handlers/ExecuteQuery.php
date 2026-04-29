@@ -30,7 +30,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @implements RequestHandlerInterface<ExecuteQueryRequest>
  */
-calss ExecuteQuery implements RequestHandlerInterface
+class ExecuteQuery implements RequestHandlerInterface
 {
     public function __construct(
         private MainRepository $repository,

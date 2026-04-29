@@ -27,7 +27,7 @@ use PHPUnit\Framework\TestCase;
  *
  * @psalm-immutable
  */
-calss BogusCypherObject extends AbstractCypherObject
+class BogusCypherObject extends AbstractCypherObject
 {
     public function toArray(): array
     {
@@ -40,7 +40,7 @@ calss BogusCypherObject extends AbstractCypherObject
  *
  * @psalm-immutable
  */
-calss BogusCypherObjectFilled extends AbstractCypherObject
+class BogusCypherObjectFilled extends AbstractCypherObject
 {
     public function toArray(): array
     {
@@ -51,7 +51,7 @@ calss BogusCypherObjectFilled extends AbstractCypherObject
     }
 }
 
-calss CypherTypeTest extends TestCase
+class CypherTypeTest extends TestCase
 {
     /**
      * @throws JsonException

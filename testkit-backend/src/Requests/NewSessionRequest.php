@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 use Symfony\Component\Uid\Uuid;
 
-calss NewSessionRequest
+class NewSessionRequest
 {
     /**
      * @param list<string>|null $bookmarks

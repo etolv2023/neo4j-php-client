@@ -19,7 +19,7 @@ use Laudis\Neo4j\Exception\TransactionException;
 use Laudis\Neo4j\Tests\EnvironmentAwareIntegrationTest;
 use PHPUnit\Framework\Attributes\DoesNotPerformAssertions;
 
-calss TransactionIntegrationTest extends EnvironmentAwareIntegrationTest
+class TransactionIntegrationTest extends EnvironmentAwareIntegrationTest
 {
     public function testValidRun(): void
     {

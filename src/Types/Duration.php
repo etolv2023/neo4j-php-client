@@ -25,7 +25,7 @@ use Laudis\Neo4j\Contracts\BoltConvertibleInterface;
  *
  * @extends AbstractPropertyObject<int, int>
  */
-calss Duration extends AbstractPropertyObject implements BoltConvertibleInterface
+class Duration extends AbstractPropertyObject implements BoltConvertibleInterface
 {
     public function __construct(
         private readonly int $months,

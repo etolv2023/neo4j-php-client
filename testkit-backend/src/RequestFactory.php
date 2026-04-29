@@ -44,7 +44,7 @@ use Laudis\Neo4j\TestkitBackend\Requests\TransactionRunRequest;
 use Laudis\Neo4j\TestkitBackend\Requests\VerifyConnectivityRequest;
 use Symfony\Component\Uid\Uuid;
 
-calss RequestFactory
+class RequestFactory
 {
     private const MAPPINGS = [
         'StartTest' => StartTestRequest::class,

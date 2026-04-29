@@ -32,7 +32,7 @@ use Laudis\Neo4j\Databags\SslConfiguration;
 use Laudis\Neo4j\Enum\SocketType;
 use PHPUnit\Framework\TestCase;
 
-calss BoltFactoryTest extends TestCase
+class BoltFactoryTest extends TestCase
 {
     private BoltFactory $factory;
 

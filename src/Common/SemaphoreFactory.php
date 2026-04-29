@@ -20,7 +20,7 @@ use Laudis\Neo4j\Contracts\SemaphoreInterface;
 use Laudis\Neo4j\Databags\DriverConfiguration;
 use Psr\Http\Message\UriInterface;
 
-calss SemaphoreFactory implements SemaphoreFactoryInterface
+class SemaphoreFactory implements SemaphoreFactoryInterface
 {
     private static ?SemaphoreFactory $instance = null;
     /** @var callable(string, int):SemaphoreInterface */

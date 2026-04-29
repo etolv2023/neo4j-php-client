@@ -29,7 +29,7 @@ use ReflectionException;
 /**
  * @implements RequestHandlerInterface<ForcedRoutingTableUpdateRequest>
  */
-calss ForcedRoutingTableUpdate implements RequestHandlerInterface
+class ForcedRoutingTableUpdate implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

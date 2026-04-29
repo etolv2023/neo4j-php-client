@@ -20,7 +20,7 @@ use Traversable;
 /**
  * Response for ExecuteQuery containing an eager result.
  */
-calss EagerResultResponse implements TestkitResponseInterface
+class EagerResultResponse implements TestkitResponseInterface
 {
     private Uuid $id;
     private array $keys;

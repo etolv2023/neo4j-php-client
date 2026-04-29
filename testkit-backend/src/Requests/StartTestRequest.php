@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Laudis\Neo4j\TestkitBackend\Requests;
 
-calss StartTestRequest
+class StartTestRequest
 {
     private string $testName;
 

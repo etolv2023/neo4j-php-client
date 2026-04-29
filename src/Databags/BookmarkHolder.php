@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Laudis\Neo4j\Databags;
 
-calss BookmarkHolder
+class BookmarkHolder
 {
     public function __construct(
         private Bookmark $bookmark,

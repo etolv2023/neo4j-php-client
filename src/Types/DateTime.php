@@ -28,7 +28,7 @@ use function sprintf;
  *
  * @extends AbstractPropertyObject<int, int>
  */
-calss DateTime extends AbstractPropertyObject implements BoltConvertibleInterface
+class DateTime extends AbstractPropertyObject implements BoltConvertibleInterface
 {
     public function __construct(
         private readonly int $seconds,

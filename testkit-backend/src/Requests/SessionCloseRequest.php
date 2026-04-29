@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 use Symfony\Component\Uid\Uuid;
 
-calss SessionCloseRequest
+class SessionCloseRequest
 {
     private Uuid $sessionId;
 

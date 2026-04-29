@@ -23,7 +23,7 @@ use InvalidArgumentException;
  *
  * @see https://neo4j.com/docs/status-codes/current/
  */
-calss Neo4jError
+class Neo4jError
 {
     public function __construct(
         private readonly string $code,

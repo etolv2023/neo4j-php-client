@@ -26,7 +26,7 @@ use function substr_count;
  *
  * @psalm-immutable
  */
-calss Authenticate
+class Authenticate
 {
     /**
      * Authenticate using a provided username and password.

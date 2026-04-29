@@ -23,7 +23,7 @@ use Laudis\Neo4j\Types\CypherList;
 use Laudis\Neo4j\Types\CypherMap;
 use Stringable;
 
-calss TypeCaster
+class TypeCaster
 {
     /**
      * @pure

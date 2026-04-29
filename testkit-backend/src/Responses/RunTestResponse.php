@@ -18,7 +18,7 @@ use Laudis\Neo4j\TestkitBackend\Contracts\TestkitResponseInterface;
 /**
  * Indicates the test can start.
  */
-calss RunTestResponse implements TestkitResponseInterface
+class RunTestResponse implements TestkitResponseInterface
 {
     public function jsonSerialize(): array
     {

@@ -15,7 +15,7 @@ namespace Laudis\Neo4j\TestkitBackend\Requests;
 
 use Symfony\Component\Uid\Uuid;
 
-calss TransactionRunRequest
+class TransactionRunRequest
 {
     /**
      * @param iterable<string, array{name: string, data: array{value: iterable|scalar|null}}>|null $params

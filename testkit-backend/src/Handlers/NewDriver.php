@@ -25,7 +25,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * @implements RequestHandlerInterface<NewDriverRequest>
  */
-calss NewDriver implements RequestHandlerInterface
+class NewDriver implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

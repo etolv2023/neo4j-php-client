@@ -21,7 +21,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * Base class for all kind of driver errors that is NOT a backend specific error.
  */
-calss DriverErrorResponse implements TestkitResponseInterface
+class DriverErrorResponse implements TestkitResponseInterface
 {
     private Uuid $id;
     private Neo4jException|TransactionException $exception;

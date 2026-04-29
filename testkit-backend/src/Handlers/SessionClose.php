@@ -21,7 +21,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\SessionResponse;
 /**
  * @implements RequestHandlerInterface<SessionCloseRequest>
  */
-calss SessionClose implements RequestHandlerInterface
+class SessionClose implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

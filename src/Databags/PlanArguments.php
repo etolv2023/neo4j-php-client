@@ -20,7 +20,7 @@ use Laudis\Neo4j\Types\AbstractCypherObject;
  *
  * @template-extends AbstractCypherObject<string, int|float|string|null>
  */
-calss PlanArguments extends AbstractCypherObject
+class PlanArguments extends AbstractCypherObject
 {
     public function __construct(
         public readonly ?int $globalMemory = null,

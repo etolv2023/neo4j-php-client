@@ -18,7 +18,7 @@ use function call_user_func;
 /**
  * @template Resolved
  */
-calss Resolvable
+class Resolvable
 {
     /** @var Resolved|null */
     private $resolved;

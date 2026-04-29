@@ -30,7 +30,7 @@ use OutOfBoundsException;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 
-calss CypherMapTest extends TestCase
+class CypherMapTest extends TestCase
 {
     /** @var CypherMap<string> */
     private CypherMap $map;

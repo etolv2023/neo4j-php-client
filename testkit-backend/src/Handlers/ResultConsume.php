@@ -22,7 +22,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\SummaryResponse;
 /**
  * @implements RequestHandlerInterface<ResultConsumeRequest>
  */
-calss ResultConsume implements RequestHandlerInterface
+class ResultConsume implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

@@ -19,7 +19,7 @@ use Symfony\Component\Uid\Uuid;
 /**
  * Represents the driver instance in the backend.
  */
-calss DriverResponse implements TestkitResponseInterface
+class DriverResponse implements TestkitResponseInterface
 {
     private Uuid $id;
 

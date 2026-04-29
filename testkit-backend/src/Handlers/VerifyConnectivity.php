@@ -22,7 +22,7 @@ use Laudis\Neo4j\TestkitBackend\Responses\DriverResponse;
 /**
  * @implements RequestHandlerInterface<VerifyConnectivityRequest>
  */
-calss VerifyConnectivity implements RequestHandlerInterface
+class VerifyConnectivity implements RequestHandlerInterface
 {
     private MainRepository $repository;
 

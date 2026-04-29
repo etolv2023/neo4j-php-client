@@ -17,7 +17,7 @@ use Bolt\connection\StreamSocket;
 use Laudis\Neo4j\Contracts\BasicConnectionFactoryInterface;
 use Laudis\Neo4j\Databags\DriverConfiguration;
 
-calss StreamConnectionFactory implements BasicConnectionFactoryInterface
+class StreamConnectionFactory implements BasicConnectionFactoryInterface
 {
     public function create(UriConfiguration $config): Connection
     {

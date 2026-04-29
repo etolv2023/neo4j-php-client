@@ -18,7 +18,7 @@ namespace Laudis\Neo4j\Databags;
  *
  * @psalm-immutable
  */
-calss TransactionConfiguration
+class TransactionConfiguration
 {
     public const DEFAULT_TIMEOUT = 60 * 60 * 24;
     public const DEFAULT_METADATA = '[]';
