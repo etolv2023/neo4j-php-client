@@ -46,12 +46,12 @@ jobs:
           push: false
           cache-from: type=gha
           cache-to: type=gha,mode=max
-          build-args: PHP_VERSION=8.1
-          tags: integration-client:8.1
+          build-args: PHP_VERSION=8.2
+          tags: integration-client:8.2
 
       - name: Populate .env
         run: |
-          echo "PHP_VERSION=8.1" > .env
+          echo "PHP_VERSION=8.2" > .env
           echo "CONNECTION=neo4j://neo4j:testtest@server1" >> .env
 
       - name: Cache PHP deps
@@ -59,9 +59,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: vendor
-          key: ${{ runner.os }}-php-8.1-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-php-8.2-${{ hashFiles('**/composer.json') }}
           restore-keys: |
-            ${{ runner.os }}-php-8.1-
+            ${{ runner.os }}-php-8.2-
 
       - name: Install PHP deps
         if: steps.cache-php-deps.outputs.cache-hit != 'true'

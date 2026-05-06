@@ -1,10 +1,7 @@
-<phpunit colors="true" verbose="true"
+<phpunit colors="true"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
-         convertErrorsToExceptions="true"
-         convertDeprecationsToExceptions="true"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.0/phpunit.xsd"
+         cacheDirectory="out/phpunit/cache"
 >
     <php>
         <ini name="memory_limit" value="1024M" />
@@ -15,14 +12,16 @@
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
-    <coverage processUncoveredFiles="true" cacheDirectory="out/phpunit/cache" pathCoverage="true">
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </source>
+    <coverage pathCoverage="true">
         <report>
             <clover outputFile="out/phpunit/clover.xml" />
             <html outputDirectory="out/phpunit/html" />
             <text outputFile="out/phpunit/out.txt"/>
         </report>
-        <include>
-            <directory suffix=".php">src</directory>
-        </include>
     </coverage>
 </phpunit>

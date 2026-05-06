@@ -260,7 +260,7 @@ $client->run('MATCH (x) WHERE x.slug in $listOrMap RETURN x', ['listOrMap' => []
 | **Driver Version** | **PHP Version** | **Neo4j Version** |
 |--------------------|-----------------|-------------------|
 | ^2.8               | 7.4, ^8.0       | ^3.5, ^4.0        |
-| ^3.0               | ^8.0            | ^4.0, ^5.0        |
+| ^3.0               | ^8.2            | ^4.0, ^5.0        |
 
 ### Neo4j Feature Support
 
@@ -276,7 +276,7 @@ $client->run('MATCH (x) WHERE x.slug in $listOrMap RETURN x', ['listOrMap' => []
 
 ## In-depth requirements
 
-* PHP >= 7.4
+* PHP >= 8.2
 * A Neo4j database (minimum version 3.5)
 * ext-bcmath
 * ext-json

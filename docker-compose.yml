@@ -22,12 +22,12 @@ x-definitions:
       - .env
   x-common-php:
     &common-php
-    image: "integration-client:${PHP_VERSION-8.1}"
+    image: "integration-client:${PHP_VERSION-8.2}"
     build:
       context: .
       dockerfile: Dockerfile
       args:
-        PHP_VERSION: "${PHP_VERSION-8.1}"
+        PHP_VERSION: "${PHP_VERSION-8.2}"
     volumes:
       - .:/opt/project
   x-common-cluster:

@@ -17,16 +17,16 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.3.17"
+          php-version: "8.4"
 
       - name: Cache PHP deps
         id: cache-php-deps
         uses: actions/cache@v4
         with:
           path: vendor
-          key: ${{ runner.os }}-php-8.3.17-${{ hashFiles('**/composer.json') }}
+          key: ${{ runner.os }}-php-8.4-${{ hashFiles('**/composer.json') }}
           restore-keys: |
-            ${{ runner.os }}-php-8.3.17-
+            ${{ runner.os }}-php-8.4-
 
       - name: Install PHP deps
         if: steps.cache-php-deps.outputs.cache-hit != 'true'

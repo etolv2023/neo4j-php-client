@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php: ["8.1.31", "8.3.17"]
+        php: ["8.2", "8.4"]
     name: "Running on PHP ${{ matrix.php }} with a Neo4j 5.20-enterprise cluster"
 
     steps:

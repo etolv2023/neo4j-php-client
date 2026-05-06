@@ -1,4 +1,4 @@
-ARG PHP_VERSION=8.1
+ARG PHP_VERSION=8.2
 
 FROM php:${PHP_VERSION}-cli
 RUN apt-get update \
@@ -13,6 +13,5 @@ RUN apt-get update \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 WORKDIR /opt/project
-
 
 
