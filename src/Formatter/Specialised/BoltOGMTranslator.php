@@ -309,22 +309,24 @@ class BoltOGMTranslator
     }
 
     /**
-     * @return CypherList<OGMTypes>|CypherMap<OGMTypes>
+     * Map Bolt list/map structures to plain PHP arrays so nested results are not wrapped in
+     * {@see CypherList}/{@see CypherMap}. That avoids a second expensive traversal via
+     * {@see \Laudis\Neo4j\Contracts\CypherSequence::toRecursiveArray()} (map + preload) on large collect() trees.
+     *
+     * @return list<mixed>|array<string, mixed>
      */
-    private function mapArray(array $value): CypherList|CypherMap
+    private function mapArray(array $value): array
     {
         if (array_is_list($value)) {
-            /** @var array<OGMTypes> $vector */
             $vector = [];
             /** @var mixed $x */
             foreach ($value as $x) {
                 $vector[] = $this->mapValueToType($x);
             }
 
-            return new CypherList($vector);
+            return $vector;
         }
 
-        /** @var array<string, OGMTypes> */
         $map = [];
         /**
          * @var string $key
@@ -334,7 +336,7 @@ class BoltOGMTranslator
             $map[$key] = $this->mapValueToType($x);
         }
 
-        return new CypherMap($map);
+        return $map;
     }
 
     /**
